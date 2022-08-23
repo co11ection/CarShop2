@@ -8,6 +8,5 @@ from .models import Category
 
 class Category(ModelViewSet):
     queryset = Category.objects.all()
-    permission_classes = (permissions.IsAdminUser)
-
     
+
